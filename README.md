@@ -28,6 +28,11 @@ to run the test we can write the command
 npx cypress run --browser chrome
 ```
 
+or for headless mode
+
+```sh
+npx cypress run --spec "cypress/e2e/login.cy.js"
+```
 if you want to find the reporter, find the folder ...\DSF_Assesment\cypress\reports\html
 
 [contact me](https://wa.me/6285727373457)
